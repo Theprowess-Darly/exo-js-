@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice3</title>
+    <link rel="stylesheet" href="./src/exo3.css">
+</head>
+<body>
+    <h1>Manipulation des dates</h1>
+    <form>
+        <label for="date">Date (JJ-MM-AAAA):</label>
+        <input type="text" id="date" name="date" pattern="\d{2}-\d{2}-\d{4}" placeholder="JJ-MM-AAAA" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="day"></p>
+    <p id="month"></p>
+    <p id="year"></p>
+    <p id="difference"></p>
+
+
+    <script src="./src/exo3.js"></script>
+</body>
+</html>
