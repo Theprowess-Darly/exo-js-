@@ -12,13 +12,3 @@ function Aleatoire() {
     const randomNumber = Math.floor(Math.random() * 100) + 1;
     document.getElementById('randomNumber').innerText = `Nombre aléatoire : ${randomNumber}`;
 }
-function Aleatoire() {
-    const min = parseInt(document.getElementById('minValue').value);
-    const max = parseInt(document.getElementById('maxValue').value);
-    if (isNaN(min) || isNaN(max)) {
-        document.getElementById('randomNumber').innerText = 'Veuillez entrer des valeurs valides.';
-        return;
-    }
-    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-    document.getElementById('randomNumber').innerText = `Nombre aléatoire généré: ${randomNumber}`;
-}
