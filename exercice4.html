@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice4</title>
+    <link rel="stylesheet" href="./src/exo4.css">
+</head>
+<body>
+    <h1>Manipulation des tableaux</h1>
+    <table>
+        <tr>
+            <th>Number</th>
+        </tr>
+        <tr>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>15</td>
+        </tr>
+    </table>
+    
+    <!-- ajouter un nouveau nombre -->
+    <input type="number" id="newNumber" placeholder="Entrez le nombre a ajouter">
+    <button onclick="addNumber()">Ajouter</button>
+
+    <!-- Suprimmer un nombre au choix -->
+    <input type="number" id="deleteNumber" placeholder="Entrez le nombre a supprimer">
+    <button onclick="deleteNumber()">Supprimer</button>
+    
+    <!-- trier les nombres du tableau -->
+    <button onclick="sortNumbers()">Trier</button>
+
+    
+    
+
+    <script src="./src/exo4.js"></script>
+</body>
+</html>
